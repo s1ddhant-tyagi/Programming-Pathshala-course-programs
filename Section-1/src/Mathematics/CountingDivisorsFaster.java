@@ -59,7 +59,7 @@ public class CountingDivisorsFaster {
                 break;
             primeFactor = spf[n];
             n = n/primeFactor;
-            System.out.println(primeFactor+" "+count+" "+n);
+//            System.out.println(primeFactor+" "+count+" "+n);
         }
         ans = ans*(count+1);
         System.out.println(ans);

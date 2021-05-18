@@ -18,6 +18,9 @@ public class FastFactorization {
             }
         }
 
+        for (int i = 1; i <= 10; i++) {
+            System.out.print(spf[i]+" ");
+        }
 
         while(n1>1)
         {
@@ -34,7 +37,7 @@ public class FastFactorization {
 
     public static void main(String[] args) {
         int num = 6060;
-        int n1 = 36;
+        int n1 = 4;
         solve(num, n1);
     }
 }
